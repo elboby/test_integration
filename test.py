@@ -9,3 +9,6 @@ class TestCase(unittest.TestCase):
 
 	def test_ping(self):
 		self.assertEquals(True, True)
+
+	def test_fail(self):
+		self.assertEquals(True, False)
