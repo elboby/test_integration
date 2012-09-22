@@ -11,4 +11,4 @@ class TestCase(unittest.TestCase):
 		self.assertEquals(True, True)
 
 	def test_fail(self):
-		self.assertEquals(True, False)
+		self.assertNotEquals(True, False)
