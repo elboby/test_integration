@@ -11,4 +11,6 @@ class TestCase(unittest.TestCase):
 		self.assertEquals(True, True)
 	def test_ping4(self):
 		self.assertEquals(True, True)
+                self.assertEquals(True, True)
 		self.assertEquals(True, True)
+
